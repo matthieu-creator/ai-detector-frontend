@@ -33,6 +33,9 @@ export default function Home() {
     };
 
     return (
+        <html>
+        <head>
+        <meta name="monetag" content="a413310a8fae26f303a9e28b5a4c2193">
         <div style={{ textAlign: "center", padding: "20px" }}>
             <h1>🔍 AI Image Detection</h1>
 
@@ -70,5 +73,7 @@ export default function Home() {
                 }
             `}</style>
         </div>
+                </head>
+                </html>
     );
 }
